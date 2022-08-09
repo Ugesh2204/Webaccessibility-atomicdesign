@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Webaccessibility-atomicdesign/static/css/main.9cec2dfa.css",
-    "main.js": "/Webaccessibility-atomicdesign/static/js/main.dd638352.js",
+    "main.css": "/Webaccessibility-atomicdesign/static/css/main.2ea53eb9.css",
+    "main.js": "/Webaccessibility-atomicdesign/static/js/main.8621635d.js",
     "static/media/peopleTablet-bg.png": "/Webaccessibility-atomicdesign/static/media/peopleTablet-bg.baff9cf23bb706fab1fd.png",
     "static/media/footer_Deskstop_bg.png": "/Webaccessibility-atomicdesign/static/media/footer_Deskstop_bg.ffc6c2dbdda297e17e2c.png",
     "static/media/footer_Tablet_bg.png": "/Webaccessibility-atomicdesign/static/media/footer_Tablet_bg.3135bf8d879ccb73d81c.png",
@@ -14,11 +14,11 @@
     "static/media/footer_Mobile_bg.png": "/Webaccessibility-atomicdesign/static/media/footer_Mobile_bg.3862787e02c792bf06c7.png",
     "static/media/peopleMobile-bg.png": "/Webaccessibility-atomicdesign/static/media/peopleMobile-bg.0d55006b3201c62bf15c.png",
     "index.html": "/Webaccessibility-atomicdesign/index.html",
-    "main.9cec2dfa.css.map": "/Webaccessibility-atomicdesign/static/css/main.9cec2dfa.css.map",
-    "main.dd638352.js.map": "/Webaccessibility-atomicdesign/static/js/main.dd638352.js.map"
+    "main.2ea53eb9.css.map": "/Webaccessibility-atomicdesign/static/css/main.2ea53eb9.css.map",
+    "main.8621635d.js.map": "/Webaccessibility-atomicdesign/static/js/main.8621635d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cec2dfa.css",
-    "static/js/main.dd638352.js"
+    "static/css/main.2ea53eb9.css",
+    "static/js/main.8621635d.js"
   ]
 }
