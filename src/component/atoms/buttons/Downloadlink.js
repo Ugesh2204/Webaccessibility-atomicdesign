@@ -1,7 +1,7 @@
 import React from 'react'
 import tw from "tailwind-styled-components"
 
-function Downloadlink() {
+function Downloadlink(color) {
   return (
     <>
     <Downloadbtn href="#">Download v1.3</Downloadbtn>
