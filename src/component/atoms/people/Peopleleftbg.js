@@ -4,7 +4,7 @@ import PeopleDeskstopLeftbg from '../../assets/images/peopleDesktopLeft-bg.png'
 function Peopleleftbg() {
   return (
    <>
-   <img className ="w-full" src={PeopleDeskstopLeftbg} alt="Background Images"/>
+   <img className ="w-full" src={PeopleDeskstopLeftbg} alt=""/>
    </>
   )
 }

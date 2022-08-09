@@ -15,20 +15,20 @@ function HeroBanner() {
       <Logo/>
     </div>
 
-    <section className='w-full md:flex'>
+    <section className='w-full md:flex lg:flex justify-center'>
       <div className='w-full mb-[3rem] block md:hidden '>
         <People/>
       </div>
       <div className='hidden md:block'>
         <Peopleleftbg/>
       </div>
-      <div className='px-[2.2rem] mb-[3rem]'>
+      <article className='px-[2.2rem] mb-[3rem]'>
         <h1 className='font-Redhat text-[3rem] text-center leading-[40px] font-black mb-[1.5rem] text-gray-900
-        lg:text-[4rem] lg:leading-[4rem]'>
+        lg:text-[4rem] lg:leading-[4rem] xl:text-[7rem] xl:leading-[7rem]'>
           The Web for Everyone</h1>
         <p className='font-Redhat text-center'>The power of the Web is in its universality.
             Access by everyone regardless of disability is an essential aspect.</p>
-      </div>
+      </article>
       <div className='hidden md:block'>
         <Peoplerightbg/>
       </div>
@@ -37,6 +37,7 @@ function HeroBanner() {
     <section className="w-full flex justify-center flex-col md:flex-row">
       <Downloadlink/>
       <WhatIsIt/>
+    
     </section>
     </>
    

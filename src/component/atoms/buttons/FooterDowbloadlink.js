@@ -1,19 +1,16 @@
 import React from 'react'
-import tw from "tailwind-styled-components"
 
-function Downloadlink() {
+function FooterDowbloadlink() {
   return (
     <>
-    <Downloadbtn href="#">Download v1.3</Downloadbtn>
+    <FooterDownloadbtn href="#">Download v1.3</FooterDownloadbtn>
     </>
-   
   )
 }
 
-export default Downloadlink
+export default FooterDowbloadlink;
 
-
-const Downloadbtn = tw.a `
+const FooterDownloadbtn = tw.a `
   max-w-[55%]
   m-auto
   py-[0.5rem]
@@ -21,10 +18,10 @@ const Downloadbtn = tw.a `
   rounded-[50px]
   font-black
   font-[1rem]
-  bg-blue-custom
+  bg-violet-custom
   text-white
   hover:bg-lightblue
-  hover:underline 
+  hover:bg-lightviolet
   hover:text-dark-custom
   mb-[1rem]
   ease-in duration-300

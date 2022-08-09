@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import tw from "tailwind-styled-components"
 import Home from './pages/Home';

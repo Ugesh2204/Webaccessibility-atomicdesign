@@ -26,6 +26,7 @@ const Imagebg = styled.div`
   background-image:url(${PeopleMobilebg});
   height:153px;
   background-repeat: no-repeat;
+  background-size:cover;
 
 
   @media ${BREAKPOINTS.tablet} {
