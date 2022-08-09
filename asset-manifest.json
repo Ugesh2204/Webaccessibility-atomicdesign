@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Webaccessibility-atomicdesign/static/css/main.9cec2dfa.css",
+    "main.js": "/Webaccessibility-atomicdesign/static/js/main.dd638352.js",
+    "static/media/peopleTablet-bg.png": "/Webaccessibility-atomicdesign/static/media/peopleTablet-bg.baff9cf23bb706fab1fd.png",
+    "static/media/footer_Deskstop_bg.png": "/Webaccessibility-atomicdesign/static/media/footer_Deskstop_bg.ffc6c2dbdda297e17e2c.png",
+    "static/media/footer_Tablet_bg.png": "/Webaccessibility-atomicdesign/static/media/footer_Tablet_bg.3135bf8d879ccb73d81c.png",
+    "static/media/peopleDesktopLeft-bg.png": "/Webaccessibility-atomicdesign/static/media/peopleDesktopLeft-bg.fbce7b79d830a3b5a448.png",
+    "static/media/peopleDesktopRight-bg.png": "/Webaccessibility-atomicdesign/static/media/peopleDesktopRight-bg.838822905013d58da11f.png",
+    "static/media/threeOldladySmilling.png": "/Webaccessibility-atomicdesign/static/media/threeOldladySmilling.afb913aecf1dfdae9d3b.png",
+    "static/media/onlinemeeting.png": "/Webaccessibility-atomicdesign/static/media/onlinemeeting.c56272fb65caa8a5f1fc.png",
+    "static/media/youngmanSmilling.png": "/Webaccessibility-atomicdesign/static/media/youngmanSmilling.a6618d2f46e0052bccb8.png",
+    "static/media/HappyLadyatLaptop.png": "/Webaccessibility-atomicdesign/static/media/HappyLadyatLaptop.5b16b818615414af946b.png",
+    "static/media/footer_Mobile_bg.png": "/Webaccessibility-atomicdesign/static/media/footer_Mobile_bg.3862787e02c792bf06c7.png",
+    "static/media/peopleMobile-bg.png": "/Webaccessibility-atomicdesign/static/media/peopleMobile-bg.0d55006b3201c62bf15c.png",
+    "index.html": "/Webaccessibility-atomicdesign/index.html",
+    "main.9cec2dfa.css.map": "/Webaccessibility-atomicdesign/static/css/main.9cec2dfa.css.map",
+    "main.dd638352.js.map": "/Webaccessibility-atomicdesign/static/js/main.dd638352.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cec2dfa.css",
+    "static/js/main.dd638352.js"
+  ]
+}
