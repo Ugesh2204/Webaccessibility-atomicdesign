@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Webaccessibility-atomicdesign/static/css/main.2ea53eb9.css",
-    "main.js": "/Webaccessibility-atomicdesign/static/js/main.8621635d.js",
+    "main.css": "/Webaccessibility-atomicdesign/static/css/main.a76130c2.css",
+    "main.js": "/Webaccessibility-atomicdesign/static/js/main.c5db49d0.js",
     "static/media/peopleTablet-bg.png": "/Webaccessibility-atomicdesign/static/media/peopleTablet-bg.baff9cf23bb706fab1fd.png",
     "static/media/footer_Deskstop_bg.png": "/Webaccessibility-atomicdesign/static/media/footer_Deskstop_bg.ffc6c2dbdda297e17e2c.png",
     "static/media/footer_Tablet_bg.png": "/Webaccessibility-atomicdesign/static/media/footer_Tablet_bg.3135bf8d879ccb73d81c.png",
@@ -10,15 +10,16 @@
     "static/media/threeOldladySmilling.png": "/Webaccessibility-atomicdesign/static/media/threeOldladySmilling.afb913aecf1dfdae9d3b.png",
     "static/media/onlinemeeting.png": "/Webaccessibility-atomicdesign/static/media/onlinemeeting.c56272fb65caa8a5f1fc.png",
     "static/media/youngmanSmilling.png": "/Webaccessibility-atomicdesign/static/media/youngmanSmilling.a6618d2f46e0052bccb8.png",
+    "static/media/worldmap.png": "/Webaccessibility-atomicdesign/static/media/worldmap.78477f0c1de8748adeae.png",
     "static/media/HappyLadyatLaptop.png": "/Webaccessibility-atomicdesign/static/media/HappyLadyatLaptop.5b16b818615414af946b.png",
     "static/media/footer_Mobile_bg.png": "/Webaccessibility-atomicdesign/static/media/footer_Mobile_bg.3862787e02c792bf06c7.png",
     "static/media/peopleMobile-bg.png": "/Webaccessibility-atomicdesign/static/media/peopleMobile-bg.0d55006b3201c62bf15c.png",
     "index.html": "/Webaccessibility-atomicdesign/index.html",
-    "main.2ea53eb9.css.map": "/Webaccessibility-atomicdesign/static/css/main.2ea53eb9.css.map",
-    "main.8621635d.js.map": "/Webaccessibility-atomicdesign/static/js/main.8621635d.js.map"
+    "main.a76130c2.css.map": "/Webaccessibility-atomicdesign/static/css/main.a76130c2.css.map",
+    "main.c5db49d0.js.map": "/Webaccessibility-atomicdesign/static/js/main.c5db49d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ea53eb9.css",
-    "static/js/main.8621635d.js"
+    "static/css/main.a76130c2.css",
+    "static/js/main.c5db49d0.js"
   ]
 }
