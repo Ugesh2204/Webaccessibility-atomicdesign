@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Webaccessibility-atomicdesign/static/css/main.a76130c2.css",
-    "main.js": "/Webaccessibility-atomicdesign/static/js/main.c5db49d0.js",
+    "main.js": "/Webaccessibility-atomicdesign/static/js/main.e3b50e30.js",
     "static/media/peopleTablet-bg.png": "/Webaccessibility-atomicdesign/static/media/peopleTablet-bg.baff9cf23bb706fab1fd.png",
     "static/media/footer_Deskstop_bg.png": "/Webaccessibility-atomicdesign/static/media/footer_Deskstop_bg.ffc6c2dbdda297e17e2c.png",
     "static/media/footer_Tablet_bg.png": "/Webaccessibility-atomicdesign/static/media/footer_Tablet_bg.3135bf8d879ccb73d81c.png",
@@ -16,10 +16,10 @@
     "static/media/peopleMobile-bg.png": "/Webaccessibility-atomicdesign/static/media/peopleMobile-bg.0d55006b3201c62bf15c.png",
     "index.html": "/Webaccessibility-atomicdesign/index.html",
     "main.a76130c2.css.map": "/Webaccessibility-atomicdesign/static/css/main.a76130c2.css.map",
-    "main.c5db49d0.js.map": "/Webaccessibility-atomicdesign/static/js/main.c5db49d0.js.map"
+    "main.e3b50e30.js.map": "/Webaccessibility-atomicdesign/static/js/main.e3b50e30.js.map"
   },
   "entrypoints": [
     "static/css/main.a76130c2.css",
-    "static/js/main.c5db49d0.js"
+    "static/js/main.e3b50e30.js"
   ]
 }
