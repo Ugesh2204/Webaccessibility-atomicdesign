@@ -1,10 +1,11 @@
 import React from 'react'
 import tw from "tailwind-styled-components"
 
-function Downloadlink(color) {
+function Downloadlink({className}) {
   return (
     <>
-    <Downloadbtn href="#">Download v1.3</Downloadbtn>
+    <Downloadbtn className={className} href="#">Download v1.3</Downloadbtn>
+   
     </>
    
   )
