@@ -7,9 +7,10 @@ import {accordionData} from '../../../utils/accordioData'
 import Contact from '../../molecules/contactform/Contact'
 
 
-function Main() {
+function Mainhome() {
   return (
-  <main id='main' className='px-[10%]'>
+    <>
+   
     <section className='flex justify-center mb-12'>
       <IconNumber/>
     </section>
@@ -30,10 +31,11 @@ function Main() {
     <section className="mb-[10rem] px-[2rem]">
       <Contact/>
     </section>
-   
-  </main>
+
+    </>
+  
   
   )
 }
 
-export default Main
+export default Mainhome

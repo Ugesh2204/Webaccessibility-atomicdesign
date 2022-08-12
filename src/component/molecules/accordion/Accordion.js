@@ -8,6 +8,7 @@ function Accordion({id, title, content}) {
     
         <li>
             <button 
+                id={`accordion-header-${id}`}
                 aria-expanded={isActive}
                 aria-controls= {`section_${id}`}
                 onClick = {()=> setisActive(!isActive)} 
@@ -19,7 +20,7 @@ function Accordion({id, title, content}) {
 
             {isActive && 
 
-            <div id={`section_${id}`} className={`accordion-content px-5 mb-1 ${isActive ? 'h-full':'h-0'} `}>
+            <div id={`section_${id}`} aria-labelledby={`accordion-header-${id}`} className={`accordion-content px-5 mb-1 ${isActive ? 'h-full':'h-0'} `}>
                 <p className='p-2'>{content}</p>
             </div>
             } 

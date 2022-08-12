@@ -41,11 +41,12 @@ function Contact() {
                 <input id="fname" className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg
                  focus:ring-blue-500 focus:border-violet-custom block w-full p-2.5 dark:bg-gray-700
                   dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500
-                   dark:focus:border-blue-500' type="text" placeholder='First Name' aria-errormessage='errorMsg' aria-invalid="true" {...register('fname')}/>
+                   dark:focus:border-blue-500' type="text" placeholder='First Name' aria-errormessage='errorMsgfn' aria-invalid="true" {...register('fname')}/>
             </div>
           
+            {/* {errors.test && <p>{errors.test.message}</p>} */}
              
-            <p id="errorMsg" className='bg-[#f50f50] text-white pl-2 mb-1'> {
+            <p id="errorMsgfn" className='bg-[#f50f50] text-white pl-2 mb-1'> {
               errors.fname?.message
             } </p>
         
@@ -54,9 +55,9 @@ function Contact() {
                 <input id="lname" className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg
                  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700
                   dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500
-                   dark:focus:border-blue-500' type="text" placeholder='Last Name'  aria-describedby='errorMsg' aria-invalid="true"  {...register('lname')} />
+                   dark:focus:border-blue-500' type="text" placeholder='Last Name'  aria-describedby='errorMsgln' aria-invalid="true"  {...register('lname')} />
             </div>
-            <p id="errorMsg" className='bg-[#f50f50] text-white pl-2 mb-1'> {
+            <p id="errorMsgln" className='bg-[#f50f50] text-white pl-2 mb-1'> {
               errors.lname?.message
             }</p>
            
@@ -65,9 +66,9 @@ function Contact() {
                 <input id="email" className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg
                  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700
                   dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500
-                   dark:focus:border-blue-500' type="email" placeholder="What's your Email"  aria-describedby='errorMsg' aria-invalid="true" {...register('email')}  />
+                   dark:focus:border-blue-500' type="email" placeholder="What's your Email"  aria-describedby='errorMsgem' aria-invalid="true" {...register('email')}  />
             </div>
-            <p id="errorMsg" className='bg-[#f50f50] text-white pl-2 mb-1'> {
+            <p id="errorMsgem" className='bg-[#f50f50] text-white pl-2 mb-1'> {
               errors.email?.message
             }</p>
             
@@ -76,9 +77,9 @@ function Contact() {
                 <textarea id="message" className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg
                  focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700
                   dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500
-                   dark:focus:border-blue-500' type="text" placeholder="Your Message"  aria-describedby='errorMsg' aria-invalid="true"  {...register('message')} />
+                   dark:focus:border-blue-500' type="text" placeholder="Your Message"  aria-describedby='errorMsge' aria-invalid="true"  {...register('message')} />
             </div>
-            <p id="errorMsg" className='bg-[#f50f50] text-white pl-2 mb-1'> {
+            <p id="errorMsge" className='bg-[#f50f50] text-white pl-2 mb-1'> {
               errors.message?.message
             }</p>
             

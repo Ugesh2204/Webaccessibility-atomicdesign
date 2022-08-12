@@ -1,12 +1,21 @@
 
 import './App.css';
-import Home from './pages/Home';
+import { BrowserRouter} from "react-router-dom";
+import Pages from './pages/Pages';
+import Navigationheader from './component/molecules/nav/Navigationheader';
+
+
+
 
 function App() {
   return (
-    <>
-    <Home/>
-    </>
+    <div>
+      <BrowserRouter>
+        <Navigationheader/>
+        <Pages/>
+      </BrowserRouter>
+ 
+    </div>
 
   );
 }

@@ -32,3 +32,15 @@ body {
 .accordion-content {
   transition: max-height 0.6s ease-out, padding 0.6s ease;
 }
+
+/* .errormessage {
+  visibility: hidden;
+}
+
+[aria-invalid="true"] {
+  outline: 2px solid red;
+}
+
+[aria-invalid="true"] ~ .errormessage {
+  visibility: visible;
+} */

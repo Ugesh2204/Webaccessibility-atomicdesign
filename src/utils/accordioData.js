@@ -1,13 +1,15 @@
 export const accordionData = [
     {
       id:'1',
-      title: 'How do I download the app?',
-      content: `To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. An even simpler way to do it would be to click the relevant link at the bottom of this page and you’ll be re-directed to the correct page.`
+      title: 'Accessible Accordion',
+      content: `Accordion widgets require some accessibility considerations to make them useful for everyone. In this article we explain what you need to do to create accessible, inclusive accordion components.`
     },
     {
       id:'2',
-      title: 'Should I wear a helmet?',
-      content: `Yes, please do! All cities have different laws. But we strongly strongly strongly recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as safe as possible while Scooting.`
+      title: 'When not to use an accordion',
+      content: `Given its benefits, it can be tempting to use accordions whenever possible, but this can often do more harm than good.
+
+      Nielsen Norman Group gives some criteria on when to use accordions and when to avoid using it. In short, when all the page content is relevant to users, it is more advantageous to show all the content at once, even if doing so results in longer pages. On the desktop it is easier to simply scroll the page than to decide on which topics to click on.`
     },
     
   ];

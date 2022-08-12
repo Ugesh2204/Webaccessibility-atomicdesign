@@ -11,9 +11,9 @@ import Peoplerightbg from '../../atoms/people/Peoplerightbg'
 function HeroBanner() {
   return (
     <>
-    <div className="w-full flex justify-center py-[3rem]">
+    {/* <section className="w-full flex justify-center py-[3rem]">
       <Logo/>
-    </div>
+    </section> */}
 
     <section className='w-full md:flex md:flex-col lg:flex justify-center'>
       <div className='w-full mb-[3rem] block lg:hidden  '>
@@ -23,8 +23,8 @@ function HeroBanner() {
         <div className='w-full hidden lg:!block '>
           <Peopleleftbg/>
         </div>
-        <article className='px-[2.2rem] mb-[3rem]'>
-          <h1 className='font-Redhat text-[3rem] text-center leading-[40px] font-black mb-[1.5rem] text-gray-900
+        <article aria-labelledby="title1" className='px-[2.2rem] mb-[3rem]'>
+          <h1 id="title1" className='font-Redhat text-[3rem] text-center leading-[40px] font-black mb-[1.5rem] text-gray-900
           lg:text-[4rem] lg:leading-[4rem] xl:text-[7rem] xl:leading-[7rem]'>
             The Web for Everyone</h1>
           <p className='font-Redhat text-center'>The power of the Web is in its universality.

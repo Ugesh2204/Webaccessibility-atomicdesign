@@ -11,7 +11,7 @@ function People() {
     {/* <img className =" md:hidden" src={PeopleMobilebg} alt="Background Images"/>
     */}
 
-    <Imagebg role='img' aria-label="Happy people faces"></Imagebg>
+    <Imagebg role='img' aria-label="Happy people faces" alt="Happy people faces"></Imagebg>
 
     </>
    
