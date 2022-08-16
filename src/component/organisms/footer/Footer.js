@@ -32,11 +32,14 @@ export default footer;
 
 const Footerbg = styled.footer `
   position:relative;
+  left: 0;
+  bottom: 0;
   width:100%;
   background-image:url(${FooterMobileBg});
   height:428px;
   background-repeat: no-repeat;
   background-size:cover;
+  bottom:0;
 
   @media ${BREAKPOINTS.tablet} {
     background-image:url(${FooterTableBg});

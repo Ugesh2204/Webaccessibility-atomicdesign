@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter} from "react-router-dom";
 import Pages from './pages/Pages';
 import Navigationheader from './component/molecules/nav/Navigationheader';
+import Footer from './component/organisms/footer/Footer';
 
 
 
@@ -10,10 +11,12 @@ import Navigationheader from './component/molecules/nav/Navigationheader';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+    
         <Navigationheader/>
         <Pages/>
-      </BrowserRouter>
+        <Footer/>
+
+     
  
     </div>
 

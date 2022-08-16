@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
 
-      <HeroBanner/>
+      {/* <HeroBanner/> */}
 
     </>
 
