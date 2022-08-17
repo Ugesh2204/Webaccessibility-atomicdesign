@@ -5,10 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      transitionProperty: {
+        height: 'height'
+      },
       fontFamily: {
         'Redhat': ['Red Hat Display', 'sans-serif'],
       },
-     
       colors: {
         "blue-custom": "#4D96A9",
         "violet-custom": "#855FB1",

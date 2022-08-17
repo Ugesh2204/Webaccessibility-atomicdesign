@@ -29,10 +29,36 @@ body {
 }
 
 
-.accordion-content {
-  transition: max-height 0.6s ease-out, padding 0.6s ease;
+
+
+.transitionDiv {
+  max-width:100%;
+  max-height: 800px;
+  overflow-y: hidden;
+  transition: max-height 0.8s linear;
 }
 
+
+@keyframes inAnimation {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
 /* .errormessage {
   visibility: hidden;
 }

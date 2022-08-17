@@ -5,6 +5,7 @@ import Webaccessibilitytxt from '../../molecules/webaccessibilitytxt/Webaccessib
 import Accordion from '../../molecules/accordion/Accordion'
 import {accordionData} from '../../../utils/accordioData'
 import Contact from '../../molecules/contactform/Contact'
+import Accordionframermotion from '../../molecules/accordion/Accordionframermotion'
 
 
 function Mainhome() {
@@ -21,13 +22,24 @@ function Mainhome() {
       <Webaccessibilitytxt/>
     </section>
 
-    <section className='mt-12 mb-[2rem] px-[2rem]'>
+    {/* <section className='mt-12 mb-[2rem] px-[2rem]'>
       <ul>
         {accordionData.map(({id,title,content}) => (
             <Accordion key={id} id={id} title={title} content={content}/>
         ))}
       </ul>
+    </section> */}
+
+    <section className='mt-12 mb-[2rem] px-[1rem]'>
+      
+      {accordionData.map(({id,title,content}) => (
+            <Accordionframermotion key={id} id={id} title={title} content={content}/>
+      ))}
+     
+    
+ 
     </section>
+
     <section className="mb-[10rem] px-[2rem]">
       <Contact/>
     </section>

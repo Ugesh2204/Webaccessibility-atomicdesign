@@ -2,7 +2,7 @@ import React from 'react'
 
 function Location() {
   return (
-    <div>Location</div>
+    <main className='h-screen'>Location</main>
   )
 }
 
