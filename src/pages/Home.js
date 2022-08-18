@@ -7,6 +7,7 @@ import HeroBanner from '../component/molecules/hero/HeroBanner'
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faBars,faCaretDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Mobilenavigation from '../component/molecules/nav/Mobilenavigation'
 
 
 function Home() {
@@ -25,6 +26,7 @@ function Home() {
          
        
         </button> */}
+     
        
       </main>
     </>

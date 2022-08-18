@@ -12,9 +12,9 @@ function HamburgerButton({expanded,setExpanded}) {
             onClick = {()=>setExpanded(!expanded)}
             expanded={expanded}
             aria-expanded={expanded}
-            aria-label="Mobile Navigation Button">
+            aria-label="Mobile Navigation Open Menu Button">
             <img className='' 
-            src={ expanded ? iconClose : iconHamburger} alt={`${expanded ? 'Close' : 'Open'} Menu`}/>
+            src={iconHamburger} alt={`${expanded ? 'Close' : 'Open'} Menu`}/>
          </Wrapper>
     </div>
   )

@@ -6,6 +6,7 @@ import Skiplink from '../../atoms/skiplink/Skiplink';
 import Navlinks from './Navlinks';
 import tw from "tailwind-styled-components"
 import styled from 'styled-components';
+import Mobilenavigation from './Mobilenavigation';
 
 
 
@@ -24,11 +25,11 @@ function Navigationheader() {
    }
 
   return (
-    <header className='relative flex justify-between items-center shadow-sm px-[10%] py-4 mb-8'>
+    <header className='w-full relative flex justify-between items-center shadow-sm px-[10%] py-4 mb-8'>
       <Skiplink/>
-      <NavLink to={'/'} aria-label="Go to HellWorld.com"><Logo/></NavLink>
+      {/* <NavLink to={'/'} aria-label="Go to HellWorld.com"><Logo/></NavLink> */}
 
-      <div className="md:hidden">
+      {/* <div className="md:hidden">
           <HamburgerButton 
           expanded={expanded}
           setExpanded={setExpanded}/>
@@ -41,7 +42,10 @@ function Navigationheader() {
             expanded={expanded}
             setExpanded={setExpanded}/>
           </Component>
-      </nav>
+      </nav> */}
+
+
+      <Mobilenavigation/>
     </header>
  
   )
